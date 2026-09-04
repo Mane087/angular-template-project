@@ -9,7 +9,11 @@ ignoreScripts: false
 enablePrePostScripts: false
 strictDepBuilds: true
 dangerouslyAllowAllBuilds: false
-allowBuilds: {}
+allowBuilds: {  
+  '@parcel/watcher': true,
+  lmdb: false,
+  msgpackr-extract: false 
+}
 
 # =========================================================
 # Seguridad: estabilidad contra paquetes recién publicados
@@ -40,4 +44,4 @@ reporter: append-only
 # Gestión del package manager
 # =========================================================
 
-managePackageManagerVersions: true
+pmOnFail: download
