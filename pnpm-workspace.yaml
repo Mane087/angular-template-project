@@ -9,11 +9,7 @@ ignoreScripts: false
 enablePrePostScripts: false
 strictDepBuilds: true
 dangerouslyAllowAllBuilds: false
-allowBuilds: {  
-  '@parcel/watcher': true,
-  lmdb: false,
-  msgpackr-extract: false 
-}
+allowBuilds: { '@parcel/watcher': true, esbuild: true, lmdb: false, msgpackr-extract: false }
 
 # =========================================================
 # Seguridad: estabilidad contra paquetes recién publicados
