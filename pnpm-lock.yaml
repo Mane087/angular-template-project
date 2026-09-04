@@ -133,6 +133,12 @@ importers:
         specifier: ^22.1.7
         version: 22.1.7
 
+  .angular/cache/angular-cli-tmp-packages-OI1xBZ:
+    dependencies:
+      '@angular/cli':
+        specifier: ^22.1.7
+        version: 22.1.7
+
 packages:
 
   '@adobe/css-tools@4.5.0':
@@ -9265,8 +9271,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.3.6
-      zod-to-json-schema: 3.25.2(zod@4.3.6)
+      zod: 4.4.3
+      zod-to-json-schema: 3.25.2(zod@4.4.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -14565,9 +14571,9 @@ snapshots:
     dependencies:
       zod: 4.1.13
 
-  zod-to-json-schema@3.25.2(zod@4.3.6):
+  zod-to-json-schema@3.25.2(zod@4.4.3):
     dependencies:
-      zod: 4.3.6
+      zod: 4.4.3
 
   zod@4.1.13: {}
 
